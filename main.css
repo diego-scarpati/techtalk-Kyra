@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Contrail One', cursive;
+    font-size: 20px;
+    line-height: 20px;
+    color: black;
+}
+
+.navbar {
+    box-shadow: rgb(120, 125, 87) 0px 0px 10px;
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.welcome {
+    background-color: #f1cf47;
+    text-align: center;
+    padding: 220px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.grid {
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+p {
+   padding-top: 50px;
+}
+
+.components {
+    text-align: center;
+    padding: 80px;
+}
+
+.components form {
+    padding: 20px 100px; 
+    border-radius: 10px;
+    background-color: #f1cf47;
+}
+
+
+.row {
+    background-color: #f1cf47;
+    border: 1px solid black;
+}
+
+.grid [class*="col"] {
+    border: 1px solid black;
+}
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    color: white;
+}
+
+footer p {
+    margin-top: 10px;
+}
